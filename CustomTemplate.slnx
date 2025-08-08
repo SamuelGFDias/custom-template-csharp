@@ -1,7 +1,5 @@
 <Solution>
   <Folder Name="/Solution Items/">
-    <File Path=".gitignore" />
-    <File Path=".template.config/template.json" />
   </Folder>
   <Folder Name="/src/">
     <Project Path="Api/Api.csproj" />
