@@ -1,12 +1,14 @@
 <Solution>
   <Folder Name="/Solution Items/">
     <File Path=".gitignore" />
+    <File Path=".template.config/template.json" />
   </Folder>
   <Folder Name="/src/">
-    <Project Path="Infra.CrossCutting/Infra.CrossCutting.csproj" />
-    <Project Path="Infra.IoC/Infra.IoC.csproj" />
-    <Project Path="Application.Services/Application.Services.csproj" />
     <Project Path="Api/Api.csproj" />
     <Project Path="Application.Contracts/Application.Contracts.csproj" />
+    <Project Path="Application.Services/Application.Services.csproj" />
+    <Project Path="Domain\Domain.csproj" Type="Classic C#" />
+    <Project Path="Infra.CrossCutting/Infra.CrossCutting.csproj" />
+    <Project Path="Infra.IoC/Infra.IoC.csproj" />
   </Folder>
 </Solution>
